@@ -1,0 +1,86 @@
+.banner-container {
+    background-color: #eaf6ff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .banner-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .live-badge {
+    background-color: #00c853;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .lic-logo {
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .banner-text h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003399;
+    margin: 0;
+  }
+  
+  .banner-text p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0 0;
+  }
+  
+  .banner-right .btn {
+    background-color: #ff4d4f;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .banner-right .btn:hover {
+    background-color: #e63946;
+  }
+  
+  .banner-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .active-dot,
+  .inactive-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .active-dot {
+    background-color: #003399;
+  }
+  
+  .inactive-dot {
+    background-color: #ccc;
+  }
